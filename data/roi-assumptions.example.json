@@ -1,0 +1,14 @@
+{
+  "_note": "全部数字为演示假设，不是供应商报价、酒厂实测或行业均值。不可直接用于立项承诺。",
+  "currency": "CNY",
+  "installed_capex": 120000,
+  "annual_opex": 24000,
+  "addressable_material_cost_per_year": 8000000,
+  "metered_utilities_cost_per_year": 300000,
+  "target_payback_years": 2,
+  "scenarios": [
+    {"name": "保守假设", "material_savings_rate": 0.002, "utilities_savings_rate": 0.02},
+    {"name": "中间假设", "material_savings_rate": 0.005, "utilities_savings_rate": 0.05},
+    {"name": "乐观假设", "material_savings_rate": 0.01, "utilities_savings_rate": 0.08}
+  ]
+}
